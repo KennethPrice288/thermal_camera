@@ -1,0 +1,14 @@
+{
+    "top": "thermal_camera",
+    "files":
+    ["hdl_source/thermal_camera/thermal_camera.sv"
+    ,"hdl_source/vospi_master/vospi_master.sv"
+    ,"hdl_source/pixel_collector/pixel_collector.sv"
+    ,"hdl_source/image_scaler/image_scaler.sv"
+    ,"hdl_source/framebuffer/framebuffer.sv"
+    ,"hdl_source/components/ram_1r1w_sync.sv"
+    ,"hdl_source/components/nonsynth_clock_gen.sv"
+    ,"hdl_source/thermal_camera/testbench.sv"
+    ,"hdl_source/components/fifo_1r1w.sv"
+    ]
+}

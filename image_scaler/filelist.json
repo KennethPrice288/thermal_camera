@@ -1,0 +1,8 @@
+{
+    "top": "image_scaler",
+    "files":
+    ["hdl_source/image_scaler/image_scaler.sv"
+    ,"hdl_source/image_scaler/testbench.sv"
+    ,"hdl_source/components/nonsynth_clock_gen.sv"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "top": "vga",
+    "files":
+    [
+    "hdl_source/vga/vga.sv"
+    ,"hdl_source/vga/smpte.sv"
+    ,"hdl_source/components/dff.sv"
+    ,"hdl_source/components/inv.sv"
+    ,"hdl_source/components/nonsynth_clock_gen.sv"
+    ,"hdl_source/components/nonsynth_reset_gen.sv"
+    ]
+}

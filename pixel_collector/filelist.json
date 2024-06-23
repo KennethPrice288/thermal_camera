@@ -1,0 +1,10 @@
+{
+    "top": "pixel_collector",
+    "files":
+    ["hdl_source/pixel_collector/pixel_collector.sv"
+    ,"hdl_source/components/fifo_1r1w.sv"
+    ,"hdl_source/components/ram_1r1w_sync.sv"
+    ,"hdl_source/components/nonsynth_clock_gen.sv"
+    ,"hdl_source/pixel_collector/testbench.sv"
+    ]
+}

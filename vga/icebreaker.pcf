@@ -1,0 +1,42 @@
+# Icebreaker Physical Constraints File (.pcf)
+# 
+# This file assigns inputs/outputs to physical pins numbers on the icebreaker board.
+#
+# This particular PCF is derived from:
+# https://github.com/YosysHQ/icestorm/blob/master/examples/icebreaker/icebreaker.pcf
+# and adapted to use naming mechanisms consistent with the BSG style
+# guide
+
+## Board Clock: 12 MHz
+set_frequency  clk_12mhz_i             12
+set_io -nowarn clk_12mhz_i             35
+
+## Buttons
+set_io -nowarn reset_n_async_unsafe_i  10
+
+# LEDs and Buttons (PMOD 2)
+set_io -nowarn led_o[1]                26 # L1
+set_io -nowarn led_o[2]                27 # L2
+set_io -nowarn led_o[3]                25 # L3
+set_io -nowarn led_o[4]                23 # L4
+set_io -nowarn led_o[5]                21 # L5
+
+# PMOD 1A
+set_io -nowarn vga_red_o[7]       44 
+set_io -nowarn vga_red_o[6]       46 
+set_io -nowarn vga_red_o[5]       48 
+set_io -nowarn vga_red_o[4]        3 
+set_io -nowarn vga_blu_o[7]       45 
+set_io -nowarn vga_blu_o[6]       47 
+set_io -nowarn vga_blu_o[5]        2 
+set_io -nowarn vga_blu_o[4]        4 
+
+# PMOD 1B
+set_io -nowarn vga_grn_o[7]       31 
+set_io -nowarn vga_grn_o[6]       34 
+set_io -nowarn vga_grn_o[5]       38 
+set_io -nowarn vga_grn_o[4]       43 
+set_io -nowarn vga_vsync_o        36
+set_io -nowarn vga_hsync_o        42 
+set_io -nowarn vga_clk_o          28
+set_io -nowarn vga_disp_en_o      32 
